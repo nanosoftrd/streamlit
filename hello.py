@@ -16,8 +16,8 @@ df=pd.DataFrame({'roll no':[1,2,3,4],'name':['mayur','shubham','pratham','aniket
 df
 chart_data = pd.DataFrame(
     
-                                np.random.randn(20,3),
-                                columns=['index','b','c']
+                                np.random.randn(20,4),
+                                columns=['a','b','c','d']
     
     
                         )
